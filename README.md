@@ -21,4 +21,4 @@ Example
     [...]
 
     $ gh-open
-    # Browser is opened with url https://github.com/hult/tree/master
+    # Browser is opened with url https://github.com/hult/example/tree/master
