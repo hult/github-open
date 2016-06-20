@@ -10,7 +10,7 @@ def repo():
     output = run_command("git remote -v | grep -E '^origin'")
     first_line = output.split("\n", 1)[0]
     repo_url = first_line.split()[1]
-    return repo_url.split(":")[1].split(".")[0]
+    return repo_url.split(":")[1].rsplit(".", 1)[0]
 
 def branch():
     output = run_command("git status --branch")
