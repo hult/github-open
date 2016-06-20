@@ -1,8 +1,24 @@
-gh-open
-=======
+## gh-open
+
+A tool for quickly opening github to the currently checked-out repository
+and branch.
+
+## Installing ##
+
+Use of virtualenv is highly recommended.
+
+    $ pip install -r requirements.txt
+
+## Running the tests ##
+
+Run
+
+    nosetests
+
+## Running ##
 
 Provided your current working directory is a checked-out github repo
-with github as the remote "origin", you can just run
+with github as the remote "origin", you can run
 
     gh-open
 
